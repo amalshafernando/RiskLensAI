@@ -3,10 +3,10 @@ An Agentic Document-Intelligence MVP for Automated Financial Risk Assessment
 
 
 
-🚀 Project Overview
+## 🚀 Project Overview
 This project serves as a portfolio piece demonstrating end-to-end development of agentic AI systems. It solves the manual bottleneck in financial risk analysis by using an orchestrated multi-agent workflow.
 
-🏗️ Architecture
+## 🏗️ Architecture
 The system follows a modular architecture:
 
 Extraction Layer: Uses pdfplumber and LLMs to structure unstructured PDF data.
@@ -19,7 +19,7 @@ Human-in-the-loop: Analyst-led review and sign-off process before final delivery
 
 RAG Chat: Provides document-grounded insights for analysts.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 Core Language: Python 3.11
 
 Agent Framework: LangGraph
@@ -32,7 +32,7 @@ UI: Streamlit
 
 Monitoring: Audit logs for human-in-the-loop approvals
 
-📋 Build Plan (1-Day MVP)
+## 📋 Build Plan (1-Day MVP)
 Setup: Environment, GitHub repository, and API credentials.
 
 Data Prep: Creating synthetic financial statements for testing.
@@ -45,7 +45,7 @@ Interface: Creating the Streamlit dashboard for analysts.
 
 Delivery: Verification and demo preparation.
 
-🚀 How to Run
+## 🚀 How to Run
 Clone the repository: git clone [repository-url]
 
 Install dependencies: pip install -r requirements.txt
